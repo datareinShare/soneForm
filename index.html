@@ -182,7 +182,7 @@
                 if (isSubmitting) return;
                 
                 // 必須項目のチェック
-                if (!form.name.value || !form.email.value || !form.inquiry_type.value || !form.message.value) {
+                if (!form.name.value || !form.email.value || !form.message.value) {
                     errorMessage.style.display = 'block';
                     errorDetails.textContent = '詳細エラー: すべての項目を入力してください。';
                     return;
